@@ -1,0 +1,211 @@
+/* CSS Document */
+
+html, body {
+	height: 100%;
+	padding: 0px;
+	background:url(../images/satinweave.png) repeat;
+	color: #222;
+}
+#wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -120px;
+}
+
+form {
+	padding-bottom: 100px;
+}
+
+header.row-fluid {
+padding: 30px 0 0px;
+}
+
+.generate {
+	border-bottom: 1px solid rgb(200,200,200);
+	text-align: center;
+	display: block;
+	padding:0px 0 30px;
+}
+
+.generate_bottom {
+	border-top: 1px solid rgb(200,200,200);
+	text-align: center;
+	display: block;
+	padding:50px 0 80px;
+	margin-top: -10px;
+
+}
+
+
+a {
+	-webkit-transition: all 400ms ease;
+	-moz-transition: all 400ms ease;
+	transition: all 400ms ease;
+}
+a:hover {
+	text-decoration: none;
+}
+
+.row-fluid {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+
+section {
+	padding: 40px 0 0 0;
+}
+
+article {
+	margin-bottom: 40px;
+}
+
+
+h1, h2, h3 {
+	color: #444;
+}
+
+h1 {
+font-family: 'Roboto Slab', serif;
+font-weight: 300;
+margin-top: 20px;
+text-align: center;
+letter-spacing: 1px;
+}
+
+header p {
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+	clear: left;
+}
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 15px;
+	letter-spacing: 2px;
+	text-align: right;
+	width: 90%;
+	margin-top: -6px;
+}
+
+p {
+	font-family: 'Roboto Slab', serif;
+	font-size: 15px;
+	line-height: 180%;
+	color: #444;
+	font-weight: 300;
+	margin: 0 0 10px 0;
+}
+
+
+input, button, select, textarea {
+		font-family: 'Roboto', sans-serif;
+		color: #222;
+		font-weight: 300;
+}
+.add {
+	margin-top: -10px;
+}
+
+
+.btn.btn-small {
+float: right;
+margin-top: 0px;
+}
+
+textarea.span10 {
+margin-bottom: 20px;
+}
+
+button.btn.btn-large, input[type="submit"].btn.btn-large {
+clear: both;
+margin: -20px 0 0px;
+}
+
+button.btn.btn-large.top, input[type="submit"].btn.btn-large.top {
+	margin-top: -128px;
+}
+
+textarea, input[type="text"] {
+	color: #444;
+}
+
+
+.row-fluid .span2 {
+width: 14.52991452991453%;
+margin-left: 0%;
+}
+
+article.span12 input.span10, article.span12 textarea.span10, article.span12 div.span10 {
+	float: right;
+}
+
+.add p {
+margin-right: 2.564102564102564%;
+}
+
+.row-fluid .span12 {
+width: 100%;
+margin-left: 0%;
+}
+
+
+ @media only screen and (max-width: 1200px) {
+	.row-fluid .span2 {
+width: 14.52991452991453%;
+margin-left: 0%;
+}
+.row-fluid .span12 {
+width: 100%;
+margin-left: 0%;
+}
+
+.add p {
+margin-right: 2%;
+}
+
+article.span12 div.span10 {
+	margin-left: 0%;
+}
+
+
+ @media only screen and (max-width: 1024px) {
+body {
+	padding: 0px;
+}
+.container-fluid {
+	padding: 0 20px;
+}
+
+}
+}
+ @media only screen and (max-width: 767px) {
+	 .btn.btn-small {
+margin-right: 0%;
+}
+
+button.btn.btn-large, input[type="submit"].btn.btn-large {
+margin-right: 0%;
+}
+.row-fluid .offset3:first-child {
+margin-left: 0%;
+}
+ input[class*="span"], select[class*="span"], textarea[class*="span"], .uneditable-input[class*="span"], .row-fluid input[class*="span"], .row-fluid select[class*="span"], .row-fluid textarea[class*="span"], .row-fluid .uneditable-input[class*="span"] {
+margin-left: 0%;
+ }
+
+
+}
+ 
+
